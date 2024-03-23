@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Belanja Online</h1>
+    <div class="container">
+    <select id="harga">
+        <option value="1">Daftar Harga</option>
+        <option value="tv">Tv : 4.200.000</option>
+        <option value="kulkas">Kulkas : 3.100.000</option>
+        <option value="mesin cuci">Mesin Cuci : 3.800.000</option>
+        <option value="6">Harga Dapat Berubah Setiap Saat</option>
+    </select>
+</div>
+</div>
+    
+    <!--link boostrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+<form>
+    <div class="form-group row">
+    <label for="" class="col-4 col-form-label">customer</label> 
+    <div class="col-8">
+        <input id="" name="" placeholder="Nama  Customer" type="text" class="form-control">
+    </div>
+    </div>
+    <div class="form-group row">
+    <label class="col-4">Pilih Produk</label> 
+    <div class="col-8">
+        <div class="custom-control custom-radio custom-control-inline">
+        <input name="radio" id="radio_0" type="radio" class="custom-control-input" value="TV"> 
+        <label for="radio_0" class="custom-control-label">TV</label>
+        </div>
+        <div class="custom-control custom-radio custom-control-inline">
+        <input name="radio" id="radio_1" type="radio" class="custom-control-input" value="Kulkas"> 
+        <label for="radio_1" class="custom-control-label">Kulkas</label>
+        </div>
+        <div class="custom-control custom-radio custom-control-inline">
+        <input name="radio" id="radio_2" type="radio" class="custom-control-input" value="Mesin Cuci"> 
+        <label for="radio_2" class="custom-control-label">Mesin Cuci</label>
+        </div>
+    </div>
+    </div>
+    <div class="form-group row">
+    <label for="text" class="col-4 col-form-label">Jumlah</label> 
+    <div class="col-8">
+        <input id="text" name="text" placeholder="Jumlah" type="text" class="form-control">
+    </div>
+    </div> 
+    <div class="form-group row">
+    <div class="offset-4 col-8">
+        <button name="submit" type="submit" class="btn btn-primary">Submit</button>
+    </div>
+    </div>
+    <div>
+
+        <h6>Nama coutomer : Putri perdana</h6>
+        <h6> produk Pilihan : Mesin Cuci</h6>
+        <h6>Jumlah Beli : 2</h6>
+        <h6>Total Belanja : Rp 7.600.000,-</h6>
+        
+        
+</form>
+
+
+</body>
+</html>
